@@ -18,7 +18,12 @@
   padding: 0;
   width: 100%;
   text-align: center;
+
 }
+/* .nav_menu .active {
+  color: #67fd67;
+  border-bottom: 5px solid #67fd67;
+} */
 .nav_menu li {
   margin: 20px 0;
 }
@@ -34,4 +39,8 @@
   color: #67fd67;
   background: rgba(103, 253, 103, 0.2);
   transition: all 0.3s ease-in-out;
+}
+.nav_menu li a:active {
+  color: #67fd67;
+  border-bottom: 5px solid #67fd67;
 }
