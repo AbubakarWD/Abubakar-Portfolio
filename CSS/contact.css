@@ -10,7 +10,6 @@
   text-align: center;
   font-size: 3rem;
   /* border: 1px solid red; */
-
 }
 .contact form {
   /* border: 1px solid red; */
@@ -40,12 +39,21 @@
   margin-top: 20px;
   font-size: 20px;
   padding: 10px;
+  color: white;
 }
 .contact form input:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-  }
-.contact form textarea {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+}
+.contact form input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: white;
+  /* opacity: 5;  */
+}
+
+/* .contact form textarea {
   width: 100%;
   height: 15vh;
   border: none;
@@ -55,7 +63,7 @@
   font-size: 25px;
   padding: 10px;
 
-}
+} */
 .contact form button {
   margin-top: 30px;
-  }
+}
