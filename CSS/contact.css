@@ -6,6 +6,9 @@
   height: 100vh;
   margin-left: 15vw;
 }
+.contact-items {
+  display: flex;
+}
 .contact h2 {
   text-align: center;
   font-size: 3rem;
@@ -66,4 +69,44 @@ input::placeholder {
 } */
 .contact form button {
   margin-top: 30px;
+}
+.social {
+  border: 1px solid red;
+  padding: 100px 50px 50px 100px;
+}
+
+.social h1 {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.social a {
+  color: rgb(39, 38, 38);
+  background-color: rgb(179, 175, 175);
+  /* color: #67fd67cc;
+  background-color: #181a1b; */
+  margin: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.fa-linkedin:hover {
+   background: #0077B5;
+  color: white; 
+  /* background: #67fd67cc;
+  color: #181a1b; */
+}
+.fa-github:hover {
+  background: #181717;
+  color: white;
+}
+.fa-twitter:hover {
+  background: #55acee;
+  color: white;
+}
+.fa-youtube:hover {
+  background: #bb0000;
+  color: white;
 }

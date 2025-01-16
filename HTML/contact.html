@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="../CSS/typography.css" />
     <link rel="stylesheet" href="../CSS/navbar.css" />
     <link rel="stylesheet" href="../CSS/contact.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -16,23 +21,32 @@
         <ul class="nav_menu">
           <li><a href="../HTML/index.html">Home</a></li>
           <li><a href="../HTML/about-page.html">About</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="../HTML/services.html">Services</a></li>
           <li><a href="../HTML/projects.html">Projects</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="../HTML/contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <section class="contact">
       <h2>Contact Now</h2>
-      <form action="">
-        <h3>Let's Connect!</h3>
-        <input type="text" name="user-name" placeholder="Name" />
-        <input type="tel" name="user-phone" placeholder="Phone Number" />
-        <input type="email" name="user-email" placeholder="Email Address" />
-        <input type="text" name="Subject" placeholder="Subject"/>
-        <input type="text" name="Your Message" placeholder="Your Message"/>
-        <div><button>Submit</button></div>
-      </form>
+      <div class="contact-items">
+        <form action="">
+          <h3>Let's Connect!</h3>
+          <input type="text" name="user-name" placeholder="Name" />
+          <input type="tel" name="user-phone" placeholder="Phone Number" />
+          <input type="email" name="user-email" placeholder="Email Address" />
+          <input type="text" name="Subject" placeholder="Subject" />
+          <input type="text" name="Your Message" placeholder="Your Message" />
+          <div><button>Submit</button></div>
+        </form>
+        <div class="social">
+          <h1>Follow us</h1>
+          <a href="#" class="fa fa-linkedin" target="_blank"></a>
+          <a href="#" class="fa fa-github" target="_blank"></a>
+          <a href="#" class="fa fa-twitter" target="_blank"></a>
+          <a href="#" class="fa fa-youtube" target="_blank"></a>
+        </div>
+      </div>
     </section>
   </body>
 </html>
