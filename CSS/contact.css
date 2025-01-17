@@ -19,6 +19,7 @@
   width: 50%;
   /* display: flex; */
   padding: 20px 50px;
+  background-color: #1f2022;
 }
 .contact form h3 {
   font-size: 2rem;
@@ -71,12 +72,12 @@ input::placeholder {
   margin-top: 30px;
 }
 .social {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 100px 50px 50px 100px;
 }
 
 .social h1 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 
