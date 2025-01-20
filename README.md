@@ -48,6 +48,6 @@ This portfolio is designed to highlight:
   -  Portfolio: Your Portfolio Link
   -  LinkedIn: Your LinkedIn Profile
   -  GitHub: Your GitHub Profile
-  -  Email: yourname@example.com
+  -  Email: abubakarwebdev22@gmail.com
 
 Thank you for visiting my portfolio repository! Feel free to reach out for collaboration, freelance projects, or any inquiries.
