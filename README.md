@@ -44,15 +44,10 @@ This portfolio is designed to highlight:
 
 ---
 
-## 📂 Project Structure
-
-Here’s how the project is structured:
-portfolio/ ├── index.html # Home Page ├── about.html # About Me Page ├── projects.html # Projects Showcase ├── contact.html # Contact Me Page ├── assets/ # Images, Icons, and Media Files │ ├── css/ # Custom Stylesheets │ ├── js/ # JavaScript Files │ └── images/ # Images for the Portfolio └── README.md # Documentation
-
 🤝 Connect With Me
-Portfolio: Your Portfolio Link
-LinkedIn: Your LinkedIn Profile
-GitHub: Your GitHub Profile
-Email: yourname@example.com
+  -  Portfolio: Your Portfolio Link
+  -  LinkedIn: Your LinkedIn Profile
+  -  GitHub: Your GitHub Profile
+  -  Email: yourname@example.com
 
 Thank you for visiting my portfolio repository! Feel free to reach out for collaboration, freelance projects, or any inquiries.
